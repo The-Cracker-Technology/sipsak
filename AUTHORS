@@ -1,0 +1,19 @@
+# The format of this file was inspired by the Linux kernel CREDITS file.
+# 
+# Authors and contributors are listed alphabetically (first name).
+# 
+# The fields are: name (N), email (E), web-address (W), CVS account login (C),
+# PGP key ID and fingerprint (P), description (D), and snail-mail address (S).
+
+N: Nils Ohlmeier
+E: nils@sipsak.org
+P: 6CC9F8A1   439A E69B 212C 01E2 2D95  9AAE 636A 3F56 6CC9 F8A1
+D: the original author and main developer
+
+N: Jan Janak
+E: jan@iptel.org
+D: contributed for example the forking code and several ideas
+
+N: Jiri Kuthan
+E: jiri@iptel.org
+D: contributed the exit code code and uncounted bug reports and ideas

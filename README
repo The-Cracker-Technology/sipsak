@@ -1,0 +1,53 @@
+
+    REQUIREMENTS
+    ============
+
+ None.
+
+ Optional:
+ - Have
+     GnuTLS (http://www.gnutls.org/)
+   or
+     OpenSSL (http://www.openssl.org/)
+   installed on your system to use their MD5 implementations
+   instead of sipsak own version.
+ - Have
+     c-ares (http://daniel.haxx.se/projects/c-ares/)
+   installed on your system to get DNS SRV lookup support
+   compiled into your sipsak binary.
+
+    INSTALLATION
+    ============
+
+ The usual
+
+   autoreconf --install
+   ./configure
+   make
+
+ followed by an optional
+
+   make install
+
+ if the binary should be available for all users on that host.
+
+    TESTS
+    =====
+
+ Running tests can be done with
+
+   make check
+
+ be sure to have check -- unit test framework for C -- installed
+
+   apt-get install check
+   yum install check
+
+    USAGE
+    =====
+
+ Please read the man page. It also contains some typical usage
+ examples at the end.
+
+ Have fun
+   Nils
